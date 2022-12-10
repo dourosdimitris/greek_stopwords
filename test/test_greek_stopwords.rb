@@ -7,7 +7,11 @@ class TestGreekStopwords < Minitest::Test
     refute_nil ::GreekStopwords::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_it_loads_txt_files
+    refute_nil ::GreekStopwords::List.new
+  end
+
+  def test_it_builds_stopwords_array
+    assert_kind_of(Array, ::GreekStopwords::List.new.all)
   end
 end
