@@ -1,4 +1,4 @@
-# GreekStopwords
+# Greek Stopwords
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/greek_stopwords`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add gem to the application's Gemfile:
 
 ```ruby
-gem "greek_stopwords", :git => "git@github.com:dourosdimitris/greek_stopwords.git"
+gem "greek_stopwords", :git => "https://github.com/dourosdimitris/greek_stopwords.git"
 ```
 
 ## Usage
