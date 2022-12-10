@@ -14,7 +14,12 @@ gem "greek_stopwords", :git => "git@github.com:dourosdimitris/greek_stopwords.gi
 
 ## Usage
 
-TODO: Write usage instructions here
+Get an array of all Greek stopwords:
+
+```ruby
+greek_stopwords = GreekStopwords::List.new
+greek_stopwords.all
+```
 
 ## Development
 
@@ -24,7 +29,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/greek_stopwords.
+Bug reports and pull requests are welcome on GitHub at https://github.com/dourosdimitris/greek_stopwords.
 
 ## License
 
