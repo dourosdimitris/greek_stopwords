@@ -6,13 +6,9 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
+Add gem to the application's Gemfile:
 
-    $ bundle add greek_stopwords
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install greek_stopwords
+    `gem "greek_stopwords", :git => "git@github.com:dourosdimitris/greek_stopwords.git"`
 
 ## Usage
 
