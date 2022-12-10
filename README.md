@@ -8,7 +8,9 @@ TODO: Delete this and the text above, and describe your gem
 
 Add gem to the application's Gemfile:
 
-    `gem "greek_stopwords", :git => "git@github.com:dourosdimitris/greek_stopwords.git"`
+    ```ruby
+    gem "greek_stopwords", :git => "git@github.com:dourosdimitris/greek_stopwords.git"
+    ```
 
 ## Usage
 
